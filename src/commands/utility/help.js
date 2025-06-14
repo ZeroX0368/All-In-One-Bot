@@ -116,7 +116,7 @@ async function getHelpMenu({ client, guild }) {
     .setLabel("Invite Me")
     .setStyle(ButtonStyle.Link)
     .setEmoji('1238429920573784074')
-    .setURL("https://discord.com/api/oauth2/authorize?client_id=1238431297974566972&permissions=8&scope=bot+applications.commands");
+    .setURL("https://discord.com/oauth2/authorize?client_id=1382728865952301168&permissions=8&integration_type=0&scope=bot");
 
   const voteButton = new ButtonBuilder()
     .setLabel("Vote Me")
@@ -132,21 +132,21 @@ async function getHelpMenu({ client, guild }) {
     .setImage(`https://share.creavite.co/663f19346f72a4507e459a7b.gif`)
         .addFields([
         {
-          name: "__**<a:loading:1238429820933640283> Features [1-9]**__",
-          value: `>>> <:points:1238429964613713960> Admin 
-<:users:1238430170151387186> Anime 
-<:hammer:1238429706454568982> Automod 
-<:cash:1238429069092196352> Economy 
-<:fun:1238429593417945098> Fun 
-<:notification:1238429897920221294> Giveaway 
-<:link:1238429779624071219> Invite 
-<:bot:1238429045243252818> Information`,
+          name: "__**<a:aloadingh:1383351932634005585> Features [1-9]**__",
+          value: `>>> <:points:1383352244090441820> Admin 
+<:users:1383352371786154024> Anime 
+<:hammer:1383352509258666004> Automod 
+<:cash:1383352620848250961> Economy 
+<:fun:1383352734845112452> Fun 
+<:notification:1383352854898675752> Giveaway 
+<:link:1383352965972361236> Invite 
+<:bot:1383353083026739305> Information`,
           inline: true
         },
         {
-          name: "__**<a:loading:1238429820933640283> Features [10-18]**__",
-          value: `>>> <:gear:1238429625055444993> Moderation 
-<:fav_songs:1238429574677790810> Music 
+          name: "__**<a:aloadingh:1383351932634005585> Features [10-18]**__",
+          value: `>>> <:gear:1383353292653989899> Moderation 
+<:fav_songs:1383353461231587368> Music 
 <:lock:1238429844803686460> Owner 
 <:com:1238429485817135226> Social 
 <:chart:1238429306938462238> Statistics 
