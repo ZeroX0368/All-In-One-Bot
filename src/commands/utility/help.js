@@ -129,7 +129,7 @@ async function getHelpMenu({ client, guild }) {
   const embed = new EmbedBuilder()
     .setColor(EMBED_COLORS.BOT_EMBED)
     .setThumbnail(client.user.displayAvatarURL())
-    .setImage(`https://share.creavite.co/663f19346f72a4507e459a7b.gif`)
+    .setImage(`https://cdn.discordapp.com/attachments/1335597135202353224/1383364012703748106/663f19346f72a4507e459a7b.gif?ex=684e85a2&is=684d3422&hm=68cb26dee5e311cf2a801503e17174ef97c4a3c5cfbff071f19cd57df46af4d7&`)
         .addFields([
         {
           name: "__**<a:aloadingh:1383351932634005585> Features [1-9]**__",
@@ -290,7 +290,7 @@ function getSlashCategoryEmbeds(client, category) {
       const subCmds = cmd.slashCommand.options?.filter((opt) => opt.type === "SUB_COMMAND");
       const subCmdsString = subCmds?.map((s) => s.name).join(", ");
 
-      return `<:arrow_gx:1239184074992779296>\`/${cmd.name}\`\n <:circle:1238429329231314974> ${cmd.description} \n ${
+      return `<:arrow_gx:1383364374344765522>\`/${cmd.name}\`\n <:circle:1383354480363307089> ${cmd.description} \n ${
         !subCmds?.length ? "" : `❯ **SubCommands [${subCmds?.length}]**: ${subCmdsString}\n`
       } `;
     });
@@ -364,7 +364,7 @@ function getMsgCategoryEmbeds(client, category, prefix) {
 
   while (commands.length) {
     let toAdd = commands.splice(0, commands.length > CMDS_PER_PAGE ? CMDS_PER_PAGE : commands.length);
-    toAdd = toAdd.map((cmd) => `<:arrow_gx:1239184074992779296> \`${prefix}${cmd.name}\`\n <:circle:1238429329231314974> ${cmd.description} \n`);
+    toAdd = toAdd.map((cmd) => `<:arrow_gx:1383364374344765522> \`${prefix}${cmd.name}\`\n <:circle:1383354480363307089> ${cmd.description} \n`);
     arrSplitted.push(toAdd);
   }
 
