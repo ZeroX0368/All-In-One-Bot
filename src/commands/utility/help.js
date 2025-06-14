@@ -147,21 +147,21 @@ async function getHelpMenu({ client, guild }) {
           name: "__**<a:aloadingh:1383351932634005585> Features [10-18]**__",
           value: `>>> <:gear:1383353292653989899> Moderation 
 <:fav_songs:1383353461231587368> Music 
-<:lock:1238429844803686460> Owner 
-<:com:1238429485817135226> Social 
-<:chart:1238429306938462238> Statistics 
-<:claim:1238429350655823912> Suggestions 
-<:transcript:1238430085795545139> Ticket 
-<:search:1238430047615058001> Utility `,
+<:lock:1383353719558639708> Owner 
+<:com:1383353834000224267> Social 
+<:chart:1383353931006083123> Statistics 
+<:claim:1383354023263993876> Suggestions 
+<:transcript:1383354116331540570> Ticket 
+<:search:1383354207473631395> Utility `,
           inline: true
         }
         ])
-    .setDescription(`<a:loading:1238429820933640283> **Emerald GX is here to help. \n > It is a multipourpose bot for your discord. \n > It can help you to build a Super server.**
-<a:loading:1238429820933640283> __**BOT INFO**__
-> <:circle:1238429329231314974> Prefix: \`/\`
-> <:circle:1238429329231314974> Discord.js Version: \`v14.15.2\`
-> <:circle:1238429329231314974> Running on \`Node v20.13.1\`
-> <:circle:1238429329231314974> Made by \`friday.su\``);
+    .setDescription(`<a:aloadingh:1383351932634005585> **Emerald GX is here to help. \n > It is a multipourpose bot for your discord. \n > It can help you to build a Super server.**
+<a:aloadingh:1383351932634005585> __**BOT INFO**__
+> <:circle:1383354480363307089> Prefix: \`/\`
+> <:circle:1383354480363307089> Discord.js Version: \`v14.15.2\`
+> <:circle:1383354480363307089> Running on \`Node v20.13.1\`
+> <:circle:1383354480363307089> Made by \`friday.su\``);
 
   return {
     embeds: [embed],
